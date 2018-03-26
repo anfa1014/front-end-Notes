@@ -2,7 +2,7 @@
 # 前端の知识点
 
 
-* [yarn和npm的区别](notes/YARN)
+* [yarn和npm的区别](notes/YARN.md)
 * 巧用padding-top实现等比缩放正方形
 
 
