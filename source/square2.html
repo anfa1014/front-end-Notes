@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>square2</title>
+    <style>
+        #button{
+            padding: 5px;
+            text-align: center;
+            margin: 20px auto;
+            border-radius: 5px ;
+            background: black;
+            color: white;
+            width: 100px;
+        }
+        #box{
+            display: flex;
+            justify-content: center;
+            border:5px solid black;
+        }
+        .item{
+            flex:1;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items:center ;
+
+        }
+        .item .block{
+            width: 100%;
+            padding-top: 100%;
+
+        }
+        .item .content{
+            position: absolute;
+
+
+        }
+    </style>
+</head>
+<body>
+
+    <div id="button" onclick="add()">添加正方形</div>
+
+    <div id="box">
+        <div class="item" style="background: red">
+            <div class="block"></div>
+            <div class="content"> 1 </div>
+        </div>
+    </div>
+
+    <script>
+        function add(){
+            var box=document.getElementById('box');
+            var item=document.createElement('div'),
+                block=document.createElement('div'),
+                content=document.createElement('div');
+
+            item.className="item";
+            item.style.background='rgb('+Math.floor(Math.random()*255)
+                                        +','+Math.floor(Math.random()*255)
+                                        +','+Math.floor(Math.random()*255)
+                                        +')';
+
+            block.className='block';
+
+            content.className='content';
+            content.innerHTML=box.children.length+1;
+
+            item.appendChild(block);
+            item.appendChild(content);
+
+            box.appendChild(item);
+
+        }
+    </script>
+</body>
+</html>

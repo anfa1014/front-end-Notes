@@ -1,8 +1,8 @@
-#### padding
+### padding
 元素A的padding的值可以为固定数值和百分比，且为非负数。当padding用百分比表示时，百分比是相对于containing block的宽度，即父元素的宽度。
 
 
-#### 小题目
+### 小题目
 
 
 ![](../img/1.png)
@@ -47,6 +47,20 @@ CSS代码：
 * `flex` 属性是flex-grow, flex-shrink 和 flex-basis的简写
 
 代码参考[square1.html](../source/square1.html)
+
+
+
+## 进阶
+
+新问题：
+
+1. 正方形数量改变了，不想修改CSS，怎么办？
+2. 正方形需要显示具体内容,但是padding-top把它挤下去了，怎么办？
+
+代码参考[square2.html](../source/square2.html)
+
+效果图如下：
+
 
 
 
