@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>globe</title>
+    <style>
+        #wrap{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 50px;
+        }
+        #globe{
+            width: 400px;
+            height: 400px;
+            border-radius: 100%;
+            background:steelblue;
+            animation:10s xxx infinite;
+        }
+        @keyframes xxx {
+            0%{
+                transform:rotatey(0deg);
+            }
+            50%{
+                transform:rotatey(180deg);
+            }
+            100%{
+                transform:rotatey(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <div id="globe"></div>
+    </div>
+</body>
+</html>
