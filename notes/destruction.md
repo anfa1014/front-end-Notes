@@ -21,7 +21,7 @@
  console.log(c); // undefined
 ```
 
-上栗中，变量`obj `具有两个属性`a`和`b`,栗子中的<span style="color:#4169E1;">解构</span>发生在赋值语句中：`var {a, b, c} = obj`
+上栗中，变量`obj `具有两个属性`a`和`b`,栗子中的<font color="#4169E1">解构</font>发生在赋值语句中：`var {a, b, c} = obj`
 
 首先，等号左侧出现了<span style="color:	#FF8C00;">花括号</span>，JS引擎会用解构对象的方式解构等号右侧，若等号左侧出现的是<span style="color:#FF8C00;">中括号</span>，则会用解构数组的方式解构等号左侧。栗子中是解构对象。
 
