@@ -1,5 +1,5 @@
 
-# 前端の知识点
+# 前端笔记
 
 
 * [yarn和npm的区别](notes/YARN.md)
