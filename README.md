@@ -7,6 +7,7 @@
 * [数组或者对象的扁平化处理](notes/flatten.md)
 * [解构，使数据访问更便捷](notes/destruction.md)
 * [JavaScript中的函数式编程](notes/FunctionalProgramming.md)
+* [HTTPS了解一下](notes/https.md)
 
 # 待整理
 * JS的词法作用域及闭包的应用
