@@ -8,6 +8,7 @@
 * [解构，使数据访问更便捷](notes/destruction.md)
 * [JavaScript中的函数式编程](notes/FunctionalProgramming.md)
 * [HTTPS了解一下](notes/https.md)
+* [学习async-validator源码的总结](node/asyncValidtor.md)
 
 # 待整理
 * JS的词法作用域及闭包的应用
