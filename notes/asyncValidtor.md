@@ -20,6 +20,7 @@ var descriptor = {
         required: true
     }
 }
+var validate = new schema(descriptor);
 ```
 源码
 
