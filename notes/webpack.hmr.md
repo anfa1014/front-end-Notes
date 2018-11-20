@@ -1,0 +1,9 @@
+- webpack-dev-server是基于express框架的小型node服务器
+- webpack-dev-middleware是webpack-dev-server和webpack桥梁，通过webpack暴露的API对代码变化进行监控
+- webpack-dev-server通过sockjs与浏览器建立websocket链接，向浏览器端的webpack-dev-server/clinet推送文件变化消息
+    - webpack-dev-server/clinet不能主动请求更新的代码，也不会执行热更新操作
+- 模块热更换
+    - webpack-dev-server/client将接受到的更新模块hash值告诉HotModuleReplacement.runtime
+    - HotModuleReplacement.runtime把hash值传递到JsonpMainTemplate.runtime，使其发送ajax请求获取更新模块的hash值，及更新模块代码
+    - HotModulePlugin 将会对新旧模块进行对比，决定是否更新模块，在决定更新模块后，检查模块之间的依赖关系，更新模块的同时更新模块间的依赖引用。
+    - 若更换新模块失败，则刷新浏览器
