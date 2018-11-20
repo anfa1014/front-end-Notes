@@ -20,6 +20,8 @@
 
 * [学习webpack笔记（-）：配置](notes/webpack.config.js)
 
+* [学习webpack笔记（二）：打包流程](notes/webpack.flow.md)
+
 
 # 待整理
 * JS的词法作用域及闭包的应用
