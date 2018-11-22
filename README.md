@@ -24,6 +24,8 @@
 
 * [学习webpack笔记（三）：热更新HMR](notes/webpack.hmr.md)
 
+* [学习webpack笔记（三）：code-splitting](notes/webpack.codesplit.md)
+
 
 
 # 待整理
