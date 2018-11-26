@@ -2,9 +2,8 @@
 # 前端笔记
 
 
-* [yarn和npm的区别](notes/YARN.md)
 
-* [巧用padding-top实现等比缩放正方形](notes/square.md)
+### JavaScript 
 
 * [数组或者对象的扁平化处理](notes/flatten.md)
 
@@ -12,11 +11,13 @@
 
 * [JavaScript中的函数式编程](notes/FunctionalProgramming.md)
 
-* [HTTPS了解一下](notes/https.md)
-
 * [学习async-validator源码的总结](notes/asyncValidtor.md)
 
-* [CSS定位整理（from MDN）](notes/position.md)
+### Node
+
+* [yarn和npm的区别](notes/YARN.md)
+
+### Building Tools
 
 * [学习webpack笔记（-）：配置](notes/webpack.config.js)
 
@@ -25,6 +26,17 @@
 * [学习webpack笔记（三）：热更新HMR](notes/webpack.hmr.md)
 
 * [学习webpack笔记（三）：code-splitting](notes/webpack.codesplit.md)
+
+### Network
+
+
+* [HTTPS了解一下](notes/https.md)
+
+### CSS 
+
+* [巧用padding-top实现等比缩放正方形](notes/square.md)
+
+* [CSS定位整理（from MDN）](notes/position.md)
 
 
 
