@@ -13,6 +13,8 @@
 
 * [学习async-validator源码的总结](notes/asyncValidtor.md)
 
+* [encodeURIComponent 和 encodeURI (from MDN)](notes/encode.md)
+
 ### Node
 
 * [yarn和npm的区别](notes/YARN.md)
