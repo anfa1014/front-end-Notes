@@ -15,6 +15,8 @@
 
 * [encodeURIComponent 和 encodeURI (from MDN)](notes/encode.md)
 
+* [提交数据的两种方式](notes/form.md)
+
 ### Node
 
 * [yarn和npm的区别](notes/YARN.md)

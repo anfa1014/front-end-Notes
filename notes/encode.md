@@ -1,0 +1,3 @@
+- 需要转义的字符集合不一样
+    - encodeURIComponent： A-Z a-z 0-9 - _ . ! ~ * ' ( )
+    - encodeURI：A-Z a-z 0-9 ; , / ? : @ & = + $ - _ . ! ~ * ' ( ) #
