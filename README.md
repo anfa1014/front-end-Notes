@@ -17,6 +17,8 @@
 
 * [提交数据的两种方式](notes/form.md)
 
+* [使用Promie模拟async函数执行过程](notes/async.js)
+
 ### Node
 
 * [yarn和npm的区别](notes/YARN.md)
