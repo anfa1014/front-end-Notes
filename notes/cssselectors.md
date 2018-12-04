@@ -1,0 +1,37 @@
+#### 定义
+将一组样式(css rulse)通过css选择器应用到某个元素上，与XPath相似
+#### 类型
+- simple selectors
+    - Type selector
+        - input: 匹配所有<input>元素
+    - Class selector
+        - .box: 匹配所有属性class中包含box的元素
+    - ID selector
+        - #box: 尽管idy应该唯一，但会匹配所有属性id是box的元素
+    - Universal selector
+        - *: 匹配document中所有元素
+    - Attribute selector
+        - 语法：[attr] [attr=value] [attr~=value] [attr=value] [attr^=value] [attr$=value] [attr*=value]
+- combinators
+    - Adjacent sibling combinator
+        - 运算符： +
+        - 含义：匹配相邻的兄弟元素
+        - h2 + p: 匹配所有跟在h2元素后面的p元素
+    - General sibling combinator
+        - 运算符： ~
+        - 含义：匹配兄弟元素，即从属的父元素相同
+        - p ~ span: 匹配所有兄弟元素中有p元素，并且位置在span元素前面的span元素
+    - Child combinator
+        - 运算符： >
+        - 含义：匹配父元素的直接子元素
+        - div > span: 匹配div元素的最近子元素中的所有span元素
+    - Descendant combinator
+        - 运算符： 空格
+        - 含义： 匹配父元素的子孙元素
+        - div span: 匹配div元素中的所有span元素
+    - Column combinator
+        - 运算符： ||
+        - 含义：匹配从属column的元素
+        - col || td: 匹配col元素下的所有td元素
+- pseudo-classes
+- pesudo-elements

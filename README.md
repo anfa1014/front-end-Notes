@@ -44,6 +44,8 @@
 
 * [CSS定位整理（from MDN）](notes/position.md)
 
+* [CSS选择器（from MDN）](notes/cssselectors.md)
+
 
 
 # 待整理
