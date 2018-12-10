@@ -19,6 +19,10 @@
 
 * [使用Promie模拟async函数执行过程](notes/async.js)
 
+### Vue（2.5.18版本）
+
+* [学习Vue(-):Vue构造函数的初始化](notes/vue-constructor.md)
+
 ### Node
 
 * [yarn和npm的区别](notes/YARN.md)
