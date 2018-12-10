@@ -21,7 +21,7 @@
 
 ### Vue（2.5.18版本）
 
-* [学习Vue(-):Vue构造函数的初始化](notes/vue-constructor.md)
+* [学习Vue(一):Vue构造函数的初始化](notes/vue-constructor.md)
 
 ### Node
 

@@ -30,3 +30,7 @@ Vue构造函数的初始化工作：
 - 方块2 
     - 函数存在于src/core/global-api目录下
     - ASSET_TYPES：component、directive、filter
+
+总结
+- 写的非常非常的粗略，至于vue是怎么运用mixin和extend的没写，日后补上，往后看这里有很多xxxMixin的函数调用
+- vue把函数按照功能分别写在不同模块中，然后挂载到Vue.prototype和Vue对象上,这样做好处是非常方便代码的维护和管理，这是class很难做到的
