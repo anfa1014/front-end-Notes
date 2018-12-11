@@ -23,6 +23,10 @@
 
 * [学习Vue(一):Vue构造函数的初始化](notes/vue-constructor.md)
 
+* [学习Vue(二): callHook：钩子函数的调用](notes/vue-callHook.md)
+
+* [学习Vue(三): 钩子函数mount](notes/vue-$mount.md)
+
 ### Node
 
 * [yarn和npm的区别](notes/YARN.md)
