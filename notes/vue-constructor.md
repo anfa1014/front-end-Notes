@@ -18,6 +18,11 @@ Vue构造函数的初始化工作：
     - _init方法是Vue.prototype扩展的功能
 - 方块2
     - 扩展Vue.prototype功能
+    - initMixin：在Vue.prototype上注册了_init方法，用于vue实例化
+    - stateMixin：在Vue.protype定义getter/setter属性:$data、$props、$watch
+    - eventMixin：在Vue.prototype上注册了$on、$once、$off、$emit
+    - lifecycleMixin：在Vue.prototype上注册了_update、$forceUpdate、$destroy 
+    - renderMixin：在Vue.prototype上注册了$nextTick、_render
 
 扩展Vue功能
 
