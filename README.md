@@ -25,7 +25,7 @@
 
 * [学习Vue(二): callHook：钩子函数的调用](notes/vue-callHook.md)
 
-* [学习Vue(三): 钩子函数mount](notes/vue-$mount.md)
+* [学习Vue(三): mount前注册render方法](notes/vue-$option.render.md)
 
 ### Node
 
