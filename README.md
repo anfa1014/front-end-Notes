@@ -33,6 +33,8 @@
 
 * [yarn和npm的区别](notes/YARN.md)
 
+* [npm常用命令整理](notes/node-command.md)
+
 ### Building Tools
 
 * [学习webpack笔记（-）：配置](notes/webpack.config.js)
