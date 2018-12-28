@@ -27,6 +27,8 @@
 
 * [学习Vue(三): mount前注册render方法](notes/vue-$option.render.md)
 
+* [学习Vue(四): vue实例化](notes/vue-instance.md)
+
 ### Node
 
 * [yarn和npm的区别](notes/YARN.md)
