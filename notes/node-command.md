@@ -10,7 +10,7 @@
     - 打印本地目录前缀
 - npm ls
     - 用树结构打印输出俺
-- npm config set <key> <value>
+- npm config set < key > < value >
     - 设置config中key的value
-- npm config get <key>
+- npm config get < key >
     - 获取config的key的值
